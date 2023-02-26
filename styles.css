@@ -3,22 +3,23 @@
   padding: 0;
 }
 
+.active {
+  background-color: black;
+}
+
 .container {
   display:grid;
   width: 1000px;
   height: 1000px;
   grid-template-columns: repeat(16, 1fr);
-}
-
-.pixel:hover {
-  background-color: black;
-  transition: 0.05s;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
 }
 
 .pixel {
-  background-color: gray;
+  background-color: white;
   width: 100%;
   height: 100%;
-  transition: 1s;
 }
 
